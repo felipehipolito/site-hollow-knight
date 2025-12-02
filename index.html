@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Knight & Silksong - O Reino de Hallownest e Pharloom</title>
+    <style>
+        /* Paleta de Cores */
+        :root {
+            --bg-dark: #121212;
+            --text-light: #f5f5f5;
+            --hk-main: #1d2e65; /* City of Tears Blue - Fundo HK */
+            --hk-accent: #4d6f94; /* Pale Blue - Destaque HK */
+            --ss-main: #8B0000; /* Dark Red - Fundo SS (Mais Avermelhado) */
+            --ss-accent: #FF4500; /* OrangeRed - Destaque SS (Mais Alaranjado) */
+        }
+
+        /* Estilos Gerais */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-light);
+            background-color: var(--bg-dark);
+            line-height: 1.8;
+        }
+
+        header {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            padding: 30px 0;
+            text-align: center;
+            border-bottom: 5px solid var(--hk-accent);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: var(--text-light);
+            text-decoration: none;
+            margin: 0 25px;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--ss-accent);
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            overflow: hidden;
+            padding: 40px 0;
+        }
+
+        section {
+            padding: 60px 0;
+            margin-bottom: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid;
+            text-transform: uppercase;
+        }
+
+        .content-block {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 40px;
+            padding: 0 20px;
+        }
+
+        .content-block.reverse {
+            flex-direction: row-reverse;
+        }
+
+        .content-block img {
+            max-width: 45%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+            margin: 0 20px;
+            object-fit: cover;
+        }
+
+        .text-content {
+            flex: 1;
+            padding: 0 15px;
+        }
+
+        /* Tema Hollow Knight */
+        #hollow-knight {
+            background-color: var(--hk-main);
+            border: 2px solid var(--hk-accent); /* Adiciona borda para contraste */
+        }
+
+        #hollow-knight h2 {
+            color: var(--text-light);
+            border-color: var(--hk-accent);
+        }
+
+        /* Tema Silksong */
+        #silksong {
+            background-color: var(--ss-main);
+            border: 2px solid var(--ss-accent); /* Adiciona borda para contraste */
+        }
+
+        #silksong h2 {
+            color: var(--text-light);
+            border-color: var(--ss-accent);
+        }
+        
+        /* Novo Tema para Informações Gerais */
+        #producao {
+            background-color: var(--bg-dark);
+            border: 2px solid var(--text-light);
+        }
+
+        #producao h2 {
+            color: var(--text-light);
+            border-color: var(--text-light);
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--bg-dark);
+            color: #8d7f7f;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 3px solid var(--hk-accent);
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Hollow Knight & Silksong</h1>
+        <nav>
+            <a href="#producao">Produção</a>
+            <a href="#hollow-knight">Hollow Knight</a>
+            <a href="#silksong">Silksong</a>
+        </nav>
+    </header>
+
+    <div class="container">
+
+
+
+        <!-- Seção Hollow Knight -->
+        <section id="hollow-knight">
+            <h2>Hollow Knight: O Vazio e a Queda de Hallownest</h2>
+
+            <!-- Bloco 1: Introdução e Gameplay -->
+            <div class="content-block">
+                <img src="images/hk_main.jpg" alt="Arte principal de Hollow Knight: O Cavaleiro no centro de Hallownest.">
+                <div class="text-content">
+                    <h3>A Jornada do Cavaleiro</h3>
+                    <p><strong>Hollow Knight</strong> é um marco no gênero Metroidvania, aclamado por sua atmosfera melancólica, jogabilidade precisa e um mundo vasto e interconectado. Você joga como o Cavaleiro, uma pequena criatura de casca que desce ao reino em ruínas de Hallownest, um lugar que já foi grandioso, mas agora está infestado por uma praga conhecida como a Infecção.</p>
+                    <p>O combate é baseado em um sistema de "pregos" (Nail) e "feitiços" (Spells), que utilizam a energia "Alma" (Soul) coletada dos inimigos. A exploração é recompensadora, com inúmeros segredos, caminhos ocultos e chefes desafiadores que testam a habilidade e a paciência do jogador.</p>
+                </div>
+            </div>
+
+            <!-- Bloco 2: Lore e Atmosfera -->
+            <div class="content-block reverse">
+                <img src="images/hk_city.jpg" alt="Arte da Cidade das Lágrimas em Hollow Knight.">
+                <div class="text-content">
+                    <h3>A Profunda história de Hallownest</h3>
+                    <p>A história de Hallownest é contada de forma sutil e fragmentada, exigindo que o jogador junte as peças através de diálogos, tabuletas e a própria arquitetura do mundo. O reino foi fundado pelo <strong>Rei Pálido</strong>, um Ser Superior que tentou selar a Infecção dentro de um receptáculo perfeito: o Hollow Knight.</p>
+                    <p>A Infecção, manifestada como uma luz alaranjada, é a vontade de uma divindade esquecida, a <strong>Radiância</strong>. A atmosfera do jogo é dominada por tons de azul escuro, cinza e preto, evocando o vazio e a tragédia que se abateu sobre o reino dos insetos. A <strong>Cidade das Lágrimas</strong>, por exemplo, é um local de beleza sombria, constantemente banhado pela chuva, simbolizando a tristeza e a queda de Hallownest.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Silksong -->
+        <section id="silksong">
+            <h2>Hollow Knight: Silksong - A Ascensão de Hornet</h2>
+
+            <!-- Bloco 3: Introdução e Nova Protagonista -->
+            <div class="content-block">
+                <img src="images/ss_main.jpg" alt="Arte principal de Hollow Knight: Silksong: Hornet em um cenário de fogo e seda.">
+                <div class="text-content">
+                    <h3>Hornet: A Caçadora Letal</h3>
+                    <p><strong>Hollow Knight: Silksong</strong> é a aguardada sequência, onde a protagonista é <strong>Hornet</strong>, a Protetora de Hallownest. O jogo se passa no novo reino de <strong>Pharloom</strong>, um lugar de contrastes, com áreas que vão desde florestas exuberantes até cidades de ouro e picos cintilantes. A paleta de cores é notavelmente mais quente e vibrante, com o vermelho e o laranja dominando, refletindo a natureza de Hornet e o novo ambiente.</p>
+                    <p>Hornet é mais rápida e ágil que o Cavaleiro. Seu combate é focado em seu "fio de seda" e agulha, permitindo movimentos acrobáticos e um estilo de luta mais ofensivo. Ela possui um sistema de criação de ferramentas, que permite ao jogador personalizar seu arsenal para diferentes desafios.</p>
+                </div>
+            </div>
+
+            <!-- Bloco 4: Gameplay e Pharloom -->
+            <div class="content-block reverse">
+                <img src="images/ss_combat.webp" alt="Cena de combate de Hornet em Hollow Knight: Silksong.">
+                <div class="text-content">
+                    <h3>O Novo Reino de Pharloom</h3>
+                    <p>Em Pharloom, Hornet deve ascender até o pico do reino para desvendar o mistério de seu cativeiro. O jogo promete mais de 150 novos tipos de inimigos, novos chefes épicos e um foco maior em missões secundárias que ajudam a construir a história do novo reino. A exploração continua sendo o coração do jogo, mas com uma verticalidade e velocidade aprimoradas.</p>
+                    <p>A Team Cherry promete que <strong>Silksong</strong> será uma experiência maior e mais ambiciosa que seu antecessor, mantendo a profundidade de lore e o desafio característico da série. A mudança de cores para o vermelho e alaranjado não é apenas estética, mas reflete a natureza mais ativa e menos "vazia" da jornada de Hornet.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de Produção e Detalhes Gerais -->
+        <section id="producao">
+            <h2>Detalhes da Produção e Lançamento</h2>
+
+            <!-- Bloco: Team Cherry e Criadores -->
+            <div class="content-block">
+                <img src="images/team_cherry_logo.png" alt="Logo da Team Cherry.">
+                <div class="text-content">
+                    <h3>Team Cherry: Os Criadores Visionários</h3>
+                    <p><strong>Hollow Knight</strong> foi desenvolvido pela <strong>Team Cherry</strong>, um estúdio independente australiano. A equipe principal é formada por <strong>Ari Gibson</strong> (artista/diretor) e <strong>William Pellen</strong> (designer/programador). O estúdio é conhecido por sua filosofia de desenvolvimento focada em qualidade e paixão, mantendo total controle criativo sobre suas obras, o que resultou em um sucesso aclamado pela crítica e pelo público.</p>
+                </div>
+            </div>
+
+            <!-- Bloco: Lançamento e Plataformas Hollow Knight -->
+            <div class="content-block reverse">
+                <img src="images/hk_platforms_art.jpg" alt="Arte de Hollow Knight.">
+                <div class="text-content">
+                    <h3>Hollow Knight: Lançamento e Disponibilidade</h3>
+                    <p>Lançado em <strong>14 de fevereiro de 2017</strong> para PC (Steam), <strong>Hollow Knight</strong> rapidamente se expandiu para <strong>Nintendo Switch</strong> (2019), **PlayStation 4** e **Xbox One**. O jogo é aclamado por sua jogabilidade e atmosfera, sendo um dos melhores Metroidvanias já criados. Seu preço acessível de lançamento (apenas $14.99 USD) e a disponibilidade em serviços como o **Xbox Game Pass** contribuíram para seu sucesso global.</p>
+                </div>
+            </div>
+
+            <!-- Bloco: Vendas e Impacto Hollow Knight -->
+            <div class="content-block">
+                <img src="images/hk_sales_art.jpg" alt="Arte de Hollow Knight com menção a 15 milhões de cópias vendidas.">
+                <div class="text-content">
+                    <h3>Sucesso Comercial e Recepção</h3>
+                    <p>O sucesso de <strong>Hollow Knight</strong> é notável para um título independente. O jogo vendeu mais de **15 milhões de cópias** em todas as plataformas, um feito impressionante para uma equipe de apenas três pessoas. Este sucesso prova que a qualidade e a paixão podem superar orçamentos massivos, consolidando Hollow Knight como um fenômeno global e um dos jogos indie mais vendidos de todos os tempos.</p>
+                </div>
+            </div>
+
+            <!-- Bloco: Silksong Lançamento e Plataformas -->
+            <div class="content-block reverse">
+                <div class="text-content">
+                    <h3>Hollow Knight: Silksong - Lançamento Global</h3>
+                    <p>O aguardado <strong>Hollow Knight: Silksong</strong> foi lançado em <strong>4 de setembro de 2025</strong>. O jogo está disponível em uma ampla gama de plataformas, incluindo **PC**, **Nintendo Switch**, **PlayStation 4/5** e **Xbox One/Series X|S**. Esta distribuição multiplataforma garante que a sequência seja acessível a todos os fãs, refletindo o compromisso da Team Cherry com a comunidade global.</p>
+                </div>
+            </div>
+
+            <!-- Bloco: Vendas Silksong -->
+            <div class="content-block">
+                <img src="images/silksong_infographic.jpg" alt="Infográfico de vendas de Silksong.">
+                <div class="text-content">
+                    <h3>Silksong: Sucesso Imediato</h3>
+                    <p><strong>Silksong</strong> teve um início comercial extraordinário, ultrapassando **5 milhões de cópias vendidas** em apenas dois meses. Este sucesso imediato demonstra o enorme interesse da comunidade pela sequência. O Brasil se destacou como o quarto país que mais jogou o título, reforçando a paixão global pela série.</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; Site de Apresentação Hollow Knight e Silksong. Imagens e conteúdo pertencem à Team Cherry.</p>
+    </footer>
+
+</body>
+</html>
